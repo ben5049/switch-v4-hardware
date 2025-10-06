@@ -4620,6 +4620,12 @@
 		(uuid "36b44a3b-9d6c-4cad-acbd-8808156a40b0")
 	)
 	(junction
+		(at 254 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3748733f-11df-4015-aeac-48fd9cab47f7")
+	)
+	(junction
 		(at 116.84 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5531,15 +5537,6 @@
 		(uuid "4e92b137-171e-42c9-bf49-e0672a26b1b6")
 	)
 	(bus_entry
-		(at 228.6 86.36)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53732559-7f20-4327-a6c9-cfe02d3efd5a")
-	)
-	(bus_entry
 		(at 360.68 78.74)
 		(size -2.54 2.54)
 		(stroke
@@ -5849,6 +5846,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 88.9) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021a1c57-2ba2-4d0e-a032-adc113bafa51")
+	)
+	(wire
+		(pts
 			(xy 78.74 53.34) (xy 88.9 53.34)
 		)
 		(stroke
@@ -6137,6 +6144,16 @@
 		)
 		(uuid "0f672b56-543d-42b8-997c-0e0afcb3424a")
 	)
+	(wire
+		(pts
+			(xy 254 88.9) (xy 254 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6f6011-fdad-43ba-af6a-f66db8ca94ce")
+	)
 	(bus
 		(pts
 			(xy 360.68 81.28) (xy 360.68 83.82)
@@ -6386,16 +6403,6 @@
 			(type default)
 		)
 		(uuid "1e332a31-dba9-4aa2-85e0-6a1c7cef8091")
-	)
-	(wire
-		(pts
-			(xy 256.54 88.9) (xy 231.14 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6d6d5d-d7c1-407a-a16d-4d6b61bfdd53")
 	)
 	(wire
 		(pts
@@ -7157,16 +7164,6 @@
 		)
 		(uuid "4e1e987d-3596-4f8d-bd09-044badd9db4e")
 	)
-	(bus
-		(pts
-			(xy 228.6 86.36) (xy 228.6 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e8a6e6c-4420-4192-ac0e-af085c464ecd")
-	)
 	(wire
 		(pts
 			(xy 167.64 132.08) (xy 167.64 134.62)
@@ -7709,7 +7706,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 86.36) (xy 254 91.44)
+			(xy 254 86.36) (xy 254 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10468,7 +10465,7 @@
 		(uuid "25251412-ff8d-4123-9c35-b2742fe1eedf")
 	)
 	(label "xMII4.TX_D1"
-		(at 251.46 55.88 180)
+		(at 251.46 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10498,7 +10495,7 @@
 		(uuid "2f4c694b-ab1e-48f1-9043-7ce6f010d959")
 	)
 	(label "xMII4.TX_EN"
-		(at 251.46 63.5 180)
+		(at 251.46 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10588,7 +10585,7 @@
 		(uuid "637c0861-43be-4a4e-9c46-ffb812ae56ff")
 	)
 	(label "xMII4.RX_D1"
-		(at 251.46 76.2 180)
+		(at 251.46 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10648,7 +10645,7 @@
 		(uuid "8328465a-7ec2-4402-9dca-8233802154c1")
 	)
 	(label "xMII4.RX_CRS_DV"
-		(at 251.46 83.82 180)
+		(at 251.46 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10768,7 +10765,7 @@
 		(uuid "a1b31f1b-ae79-4b57-b39d-62f266164759")
 	)
 	(label "xMII4.RX_D0"
-		(at 251.46 73.66 180)
+		(at 251.46 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10818,7 +10815,7 @@
 		(uuid "af801cb9-c1d0-4e6f-bfad-cb3f8bc05455")
 	)
 	(label "xMII4.TX_D0"
-		(at 251.46 53.34 180)
+		(at 251.46 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10826,16 +10823,6 @@
 			(justify right bottom)
 		)
 		(uuid "b58e9e83-40a9-4aa5-bf47-a0b9ab9c24ad")
-	)
-	(label "xMII4.RX_ER"
-		(at 251.46 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc49a29c-b397-44db-bf47-f35434bdad32")
 	)
 	(label "xMII1.TX_CLK"
 		(at 337.82 109.22 0)
@@ -15429,7 +15416,7 @@
 				)
 			)
 		)
-		(property "Value" "XRCGB25M000F2P02R0"
+		(property "Value" "XRCGB25M000F3A16R0"
 			(at 205.74 162.56 90)
 			(effects
 				(font

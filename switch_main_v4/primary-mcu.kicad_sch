@@ -17513,7 +17513,7 @@
 				)
 			)
 		)
-		(property "Value" "XRCGB25M000F2P02R0"
+		(property "Value" "XRCGB25M000F3A16R0"
 			(at 66.04 208.28 90)
 			(effects
 				(font
@@ -17521,7 +17521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:NX2016SA-40M-STD-CZS-3"
+		(property "Footprint" "project_footprints:XRCGB25M000F3A16R0"
 			(at 99.06 208.28 0)
 			(effects
 				(font

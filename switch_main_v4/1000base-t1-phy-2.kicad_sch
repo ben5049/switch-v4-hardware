@@ -3258,12 +3258,6 @@
 		(uuid "052b3cc2-1c54-4c36-90df-0b76bcfee4b3")
 	)
 	(junction
-		(at 71.12 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0850ef37-b1d0-43cf-a4d5-cb5cb1172e29")
-	)
-	(junction
 		(at 226.06 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3364,12 +3358,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5419725a-2cda-4b8d-a321-f6ab3d034915")
-	)
-	(junction
-		(at 45.72 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5438d115-4d53-4374-9826-8ce65b59518c")
 	)
 	(junction
 		(at 195.58 91.44)
@@ -3534,10 +3522,10 @@
 		(uuid "ebaec802-1ec2-4a73-8abf-484169e613d5")
 	)
 	(junction
-		(at 58.42 124.46)
+		(at 71.12 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6597768-133a-45b7-a795-04fba248b497")
+		(uuid "fbce1ec7-4aa0-4a75-ba67-2fd3781d565f")
 	)
 	(no_connect
 		(at 81.28 132.08)
@@ -3899,26 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 111.76) (xy 81.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "137f48f9-23ff-46e1-9a56-766af8cbe1ae")
-	)
-	(wire
-		(pts
-			(xy 45.72 111.76) (xy 45.72 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b93d50-fa43-4b5b-846d-8962e729feeb")
-	)
-	(wire
-		(pts
 			(xy 121.92 139.7) (xy 154.94 139.7)
 		)
 		(stroke
@@ -3959,13 +3927,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 121.92) (xy 45.72 124.46)
+			(xy 71.12 104.14) (xy 81.28 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "197bc2e8-bbd7-4380-94ce-2ce043da2ebd")
+		(uuid "1947c304-ac5b-49d8-ab24-de3069943b56")
 	)
 	(wire
 		(pts
@@ -4099,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 111.76) (xy 45.72 111.76)
+			(xy 33.02 111.76) (xy 81.28 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4169,16 +4137,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 106.68) (xy 81.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3367beee-458a-41cc-b504-2eba6120b7bf")
-	)
-	(wire
-		(pts
 			(xy 134.62 43.18) (xy 147.32 43.18)
 		)
 		(stroke
@@ -4196,6 +4154,16 @@
 			(type default)
 		)
 		(uuid "35621aae-cf81-4e0e-a447-012ebc783c5a")
+	)
+	(wire
+		(pts
+			(xy 71.12 104.14) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362411fb-911d-435f-9312-1becb41beb3e")
 	)
 	(wire
 		(pts
@@ -4599,16 +4567,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 106.68) (xy 71.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703679de-ae11-45ea-bb78-deac0c5c796c")
-	)
-	(wire
-		(pts
 			(xy 213.36 66.04) (xy 213.36 63.5)
 		)
 		(stroke
@@ -4939,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 106.68) (xy 71.12 106.68)
+			(xy 33.02 106.68) (xy 81.28 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4986,16 +4944,6 @@
 			(type default)
 		)
 		(uuid "a8528567-94fb-44f6-86d1-285f79d87ee5")
-	)
-	(wire
-		(pts
-			(xy 45.72 124.46) (xy 58.42 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa229928-489c-4bd6-81c6-f8b8f9e08034")
 	)
 	(bus
 		(pts
@@ -5419,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 104.14) (xy 81.28 104.14)
+			(xy 33.02 104.14) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6908,76 +6856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 45.72 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "396bddd1-f1ef-462a-a8f1-12a4ce99be28")
-		(property "Reference" "R1510"
-			(at 48.26 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4k7"
-			(at 48.26 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 45.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0da645fb-8c1f-4bce-93f7-2ddc20d10247")
-		)
-		(pin "1"
-			(uuid "962d29d4-8656-4408-a721-e77450731f60")
-		)
-		(instances
-			(project "switch_main_v4"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c/5b05d4e8-554f-4b77-b2ef-3843e3d18685"
-					(reference "R1510")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 137.16 149.86 90)
 		(unit 1)
@@ -7523,9 +7401,9 @@
 		(at 71.12 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555c579a-06dd-44eb-935e-225837097c76")
 		(property "Reference" "R1503"
