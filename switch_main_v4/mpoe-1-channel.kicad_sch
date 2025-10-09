@@ -2482,7 +2482,7 @@
 	(text_box "1.1A Maximum output current\n1.1A Maximum measurable current"
 		(exclude_from_sim no)
 		(at 182.88 134.62 0)
-		(size 35.56 5.08)
+		(size 38.1 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
