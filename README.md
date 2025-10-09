@@ -8,9 +8,9 @@ Also see my post on [r/embedded](https://www.reddit.com/r/embedded/comments/1mxa
 
 ## Design
 
-See the [schematic](media/switch_main_v4.pdf) for a block diagram and in depth details.
+See the [schematic](media/switch_main_v4.pdf) for a block diagram and in-depth details.
 
-The main switch chip is an [SJA1105QEL](https://www.nxp.com/products/SJA1105PQRS) from NXP. It is configured via SPI by an [STM32H573IIK3Q](https://www.st.com/resource/en/datasheet/stm32h573ai.pdf). The STM32 is also connected by reduced media independant interface (RMII) to the switch so it is able to send and receive management traffic such as Spanning Tree Protocol ([STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)) BPDUs as well as Precision Time Protocol (PTP) packets and diagnostic information.
+The main switch chip is an [SJA1105QEL](https://www.nxp.com/products/SJA1105PQRS) from NXP. It is configured via SPI by an [STM32H573IIK3Q](https://www.st.com/resource/en/datasheet/stm32h573ai.pdf). The STM32 is also connected by reduced media independent interface (RMII) to the switch so it is able to send and receive management traffic such as Spanning Tree Protocol ([STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)) BPDUs as well as Precision Time Protocol (PTP) packets and diagnostic information.
 
 The connections for each SJA1105 port are shown below:
 
@@ -32,7 +32,7 @@ PoDL has been implemented on ports 1, 2 and 3 of the switch.
 
 - Port 3 is also able to output 1.1A and uses a custom multidrop PoDL implementation. Detection is done by powering the bus at 6.5V, then each device on the bus draws 1mA for every 1W of power they want. Then the full supply is enabled.
 
-An [STM32H503KBU6](https://www.st.com/resource/en/datasheet/stm32h503eb.pdf) is used as a secondary processor to control the PoDL operations. It talks to the primary processer via UART through an optocoupler. This means the data and power circuits are galvanically isolated.
+An [STM32H503KBU6](https://www.st.com/resource/en/datasheet/stm32h503eb.pdf) is used as a secondary processor to control the PoDL operations. It talks to the primary processor via UART through an optocoupler. This means the data and power circuits are galvanically isolated.
 
 ## Test Rig
 
@@ -55,9 +55,10 @@ Datasheets:
 PoDL:
 - [How to Implement an IEEE 802.3cg or 802.3bu-Compliant PoDL PSE](https://www.ti.com/lit/ab/snla395/snla395.pdf?ts=1745823061950) - TI
 - [1000BASE-T1 PoDL Reference design](https://www.ti.com/lit/ug/tiduf49/tiduf49.pdf?ts=1746159399261&ref_url=https%253A%252F%252Fwww.google.com%252F) - TI
-- [PSE Schematic](https://www.ti.com/lit/df/tidmco4/tidmco4.pdf?ts=1746307249429) -TI
-- [IEEE 802.3cg 10BASE-T1L Power over Data Lines Powered Device Design](https://www.ti.com/lit/an/snvaa25a/snvaa25a.pdf?ts=1745871367852) -TI
+- [PSE Schematic](https://www.ti.com/lit/df/tidmco4/tidmco4.pdf?ts=1746307249429) - TI
+- [IEEE 802.3cg 10BASE-T1L Power over Data Lines Powered Device Design](https://www.ti.com/lit/an/snvaa25a/snvaa25a.pdf?ts=1745871367852) - TI
     - References non-existent inductors :/
 - [SINGLE PAIR ETHERNET FILTER DESIGN](https://www.we-online.com/files/pdf1/single_pair_ethernet.pdf) - WE
 - [Power Injection Inductors for 10BASE-T1 PoDL](https://www.coilcraft.com/en-us/applications/power-injection-inductors-for-10base-t1-podl/) - Coilcraft
 - [10BASE-T1L Converter w/ PoE+PoDL](https://matthewtran.dev/2024/08/10base-t1l-converter/)
+
