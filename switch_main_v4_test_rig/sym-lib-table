@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PWR-SYM")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/PWR-SYM.kicad_sym")(options "")(descr ""))
+)

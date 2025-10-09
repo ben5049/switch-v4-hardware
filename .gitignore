@@ -1,40 +1,42 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
-
-# Temporary files
+# Kicad
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
-*-cache*
-*-bak
-*-bak*
+*.kicad_prl
+*.sch-bak
 *~
-~*
 _autosave-*
-\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+*.gbr
+*.gbrjob
+*.drl
 
-# Netlist files (exported from Eeschema)
-*.net
+# Protel Gerber extensions
+*.gbl
+*.gbp
+*.gbs
+*.gbo
+*.rpt
+*.gm1
+*.gtl
+*.gts
+*.gtp
+*.gto
+*.g[0-9]
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+# Kicad plugins
+backups
+panelizer.log
+ordering_instructions.txtf
 
-# Exported BOM files
-*.xml
-*.csv
 
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
-
-# Local project settings
-*.kicad_prl
+switch_main_v4/production/*
+switch_main_v4_test_rig/production/*
