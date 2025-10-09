@@ -1,0 +1,3 @@
+[submodule "component-library"]
+	path = component-library
+	url = https://github.com/ben5049/component-library
