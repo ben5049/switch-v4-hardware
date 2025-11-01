@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(property "Footprint" "project_footprints:10132798-031100LF"
+			(property "Footprint" "project_footprints:10132797-031100LF"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -4023,7 +4023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:10132798-031100LF"
+		(property "Footprint" "project_footprints:10132797-031100LF"
 			(at 27.94 88.9 0)
 			(effects
 				(font
