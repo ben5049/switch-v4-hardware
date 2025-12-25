@@ -1292,7 +1292,7 @@
       "workbook_filename": "podl_current_source.wbk"
     },
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/bens1/Downloads/",
+    "plot_directory": "../media/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

@@ -2433,7 +2433,7 @@
 		)
 		(uuid "c180a8a6-aba8-4c10-aa12-579bcf9c42ce")
 	)
-	(text_box "R_{ILIM} = 47kΩ ∴ I_{LIM} = 285mA"
+	(text_box "R_{ILIM} = 47kΩ ∴ I_{LIM} = 255mA"
 		(exclude_from_sim no)
 		(at 238.76 111.76 0)
 		(size 17.78 5.08)
