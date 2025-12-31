@@ -48,7 +48,7 @@ The [test rig PCB](switch_main_v4_test_rig) is designed so that its pogo pins al
 ## References
 
 Datasheets:
-- [88Q2112 Datasheet](https://www.lcsc.com/datasheet/C22387511.pdf) (link is broken, DM me)
+- [88Q2112 Datasheet](https://www.infineon.com/assets/row/public/documents/10/49/infineon-brightlane-88q2110-88q2112-datasheet-datasheet-en.pdf) (requires an Infineon account)
 - [SJA1105 Datasheet](https://www.nxp.com/docs/en/data-sheet/SJA1105PQRS.pdf)
 - [LAN8671 Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/AIS/ProductDocuments/DataSheets/LAN8670-1-2-Data-Sheet-60001573.pdf)
 
