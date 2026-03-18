@@ -4,11 +4,11 @@ KiCad design files for the 4th iteration of my single pair Ethernet (SPE) switch
 
 Also see my post on [r/embedded](https://www.reddit.com/r/embedded/comments/1mxale6/i_built_a_single_pair_ethernet_switch/)!
 
-![top-render](media/top-render.png)
+![top-render](docs/images/top-render.png)
 
 ## Design
 
-See the [schematic](media/switch_main_v4.pdf) for a block diagram and in-depth details.
+See the [schematic](docs/schematics/switch-main-v4.pdf) for a block diagram and in-depth details.
 
 The main switch chip is an [SJA1105QEL](https://www.nxp.com/products/SJA1105PQRS) from NXP. It is configured via SPI by an [STM32H573IIK3Q](https://www.st.com/resource/en/datasheet/stm32h573ai.pdf). The STM32 is also connected by reduced media independent interface (RMII) to the switch so it is able to send and receive management traffic such as Spanning Tree Protocol ([STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)) BPDUs as well as Precision Time Protocol (PTP) packets and diagnostic information.
 
@@ -36,7 +36,7 @@ An [STM32H503KBU6](https://www.st.com/resource/en/datasheet/stm32h503eb.pdf) is 
 
 ## Test Rig
 
-The [test rig PCB](switch_main_v4_test_rig) is designed so that its pogo pins align directly with the test pads on the bottom of the main switch board. This means a debugger can be connected without needing to include a header on the main board.
+The [test rig PCB](pcbs/switch-main-v4-test-rig) is designed so that its pogo pins align directly with the test pads on the bottom of the main switch board. This means a debugger can be connected without needing to include a header on the main board.
 
 ## Versions
 
