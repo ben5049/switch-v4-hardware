@@ -1,4 +1,4 @@
-[submodule "component-library"]
-	path = component-library
+[submodule "pcbs/component-library"]
+	path = pcbs/component-library
 	url = https://github.com/ben5049/component-library
     branch = main
