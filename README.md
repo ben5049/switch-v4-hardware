@@ -42,8 +42,10 @@ The [test rig PCB](pcbs/switch-main-v4-test-rig) is designed so that its pogo pi
 
 | Version | Description |
 | ------- | ----------- |
-| v4.1.0  | Fixed mistake where the STM32's RMII Tx and Rx lanes were swapped |
+| v4.1.0  | Fixed bugs from first revision |
 | v4.0.0  | First release |
+
+See the [errata](docs/errata.md) for details on bugs.
 
 ## References
 
