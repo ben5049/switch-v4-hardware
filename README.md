@@ -1,6 +1,6 @@
 # Switch v4 Hardware
 
-KiCad design files for the 4th iteration of my single pair Ethernet (SPE) switch. The firmware can be found in [switch-v4-firmware](https://github.com/ben5049/switch-v4-firmware).
+KiCad design files for the 4th iteration of my single pair Ethernet (SPE) switch. The firmware can be found in [unified-switch-firmware](https://github.com/ben5049/unified-switch-firmware).
 
 Also see my post on [r/embedded](https://www.reddit.com/r/embedded/comments/1mxale6/i_built_a_single_pair_ethernet_switch/)!
 
