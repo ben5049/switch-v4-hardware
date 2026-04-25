@@ -42,6 +42,7 @@ The [test rig PCB](pcbs/switch-main-v4-test-rig) is designed so that its pogo pi
 
 | Version | Description |
 | ------- | ----------- |
+| v4.1.1  | Updated to Kicad v10 |
 | v4.1.0  | Fixed bugs from first revision |
 | v4.0.0  | First release |
 

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4dfaebb1-a058-4486-a7a1-3dab64099eaa")
 	(paper "A4")
 	(title_block
@@ -968,11 +968,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5b05d4e8-554f-4b77-b2ef-3843e3d18685")
 		(property "Sheetname" "1000BASE-T1 PHY 2"
 			(at 165.1 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,6 +984,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy-2.kicad_sch"
 			(at 165.1 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,11 +1094,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "64823b24-9357-4aa0-902e-0b46b5bbad98")
 		(property "Sheetname" "10BASE-T1S PHY"
 			(at 165.1 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,6 +1110,8 @@
 		)
 		(property "Sheetfile" "10base-t1s-phy.kicad_sch"
 			(at 165.1 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,11 +1240,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7f641fd6-8e95-45a8-8c09-4601f61f3219")
 		(property "Sheetname" "SMI Level Shifting"
 			(at 88.9 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,6 +1256,8 @@
 		)
 		(property "Sheetfile" "smi-level-shifting.kicad_sch"
 			(at 88.9 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,11 +1325,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "dfd0a53d-3ef5-4891-8c80-3fba6995c66e")
 		(property "Sheetname" "1000BASE-T1 PHY 0"
 			(at 165.1 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,6 +1341,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy-0.kicad_sch"
 			(at 165.1 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,11 +1451,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ea4867e4-41c6-4c6a-8631-52f081f3ce30")
 		(property "Sheetname" "1000BASE-T1 PHY 1"
 			(at 165.1 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,6 +1467,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy-1.kicad_sch"
 			(at 165.1 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,11 +1577,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f77f72b3-a990-4136-893d-b4cce8a618ff")
 		(property "Sheetname" "Clocking"
 			(at 88.9 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,6 +1593,8 @@
 		)
 		(property "Sheetfile" "clocking.kicad_sch"
 			(at 88.9 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "a5dbc0e8-35b2-4b3f-af95-8a48a572a6cf")
 	(paper "A4")
 	(title_block
@@ -21,7 +21,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid 254e1f99-c273-4a82-bc36-0891e35c2976)
+		(uuid "254e1f99-c273-4a82-bc36-0891e35c2976")
 	)
 	(circle
 		(center 139.7 59.69)
@@ -34,7 +34,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid 37880b20-c48e-4818-ab9a-921a402915e9)
+		(uuid "37880b20-c48e-4818-ab9a-921a402915e9")
 	)
 	(circle
 		(center 139.7 49.53)
@@ -47,7 +47,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid 5b52a593-29da-4ee1-bf26-24abdf0bb604)
+		(uuid "5b52a593-29da-4ee1-bf26-24abdf0bb604")
 	)
 	(circle
 		(center 139.7 64.77)
@@ -60,7 +60,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid 60569ff2-edac-4790-bb94-214567452022)
+		(uuid "60569ff2-edac-4790-bb94-214567452022")
 	)
 	(circle
 		(center 139.7 54.61)
@@ -73,7 +73,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid 8476108a-e8ad-4452-bb09-23186216f4d2)
+		(uuid "8476108a-e8ad-4452-bb09-23186216f4d2")
 	)
 	(circle
 		(center 139.7 43.18)
@@ -86,7 +86,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid b3af266a-04bf-4110-9f7a-5c4ae7be3e3c)
+		(uuid "b3af266a-04bf-4110-9f7a-5c4ae7be3e3c")
 	)
 	(circle
 		(center 228.6 43.18)
@@ -99,7 +99,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid c2981d2e-12c7-44cf-aa53-c2b2267aacb8)
+		(uuid "c2981d2e-12c7-44cf-aa53-c2b2267aacb8")
 	)
 	(text "1V2"
 		(exclude_from_sim no)
@@ -1739,11 +1739,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "24f4c79d-cdce-4a41-912b-1523d0b9fc64")
 		(property "Sheetname" "Regulators (Isolated)"
 			(at 152.4 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,6 +1755,8 @@
 		)
 		(property "Sheetfile" "power-regulators-isolated.kicad_sch"
 			(at 152.4 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,11 +1805,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3215d643-ce31-476b-aa01-9096c7ce3dfb")
 		(property "Sheetname" "3V3 Regulators"
 			(at 101.6 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,6 +1821,8 @@
 		)
 		(property "Sheetfile" "power-3v3-regulators.kicad_sch"
 			(at 101.6 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,11 +1881,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7660ee4b-63c9-4370-ad91-90cac1411452")
 		(property "Sheetname" "Power In"
 			(at 50.8 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,6 +1897,8 @@
 		)
 		(property "Sheetfile" "power-in.kicad_sch"
 			(at 50.8 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,11 +1957,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b2e985e0-3ca0-4c8f-ac20-521f3b79109e")
 		(property "Sheetname" "Power In (Isolated)"
 			(at 101.6 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,6 +1973,8 @@
 		)
 		(property "Sheetfile" "power-in-isolated.kicad_sch"
 			(at 101.6 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,11 +2033,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d017dddd-15df-4565-b589-89c8c78bc85c")
 		(property "Sheetname" "Ethernet Power"
 			(at 190.5 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,6 +2049,8 @@
 		)
 		(property "Sheetfile" "power-ethernet.kicad_sch"
 			(at 190.5 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
